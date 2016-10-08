@@ -81,7 +81,7 @@
             <article class="post">
                 <header>
                     <div class="title">
-                        <h2>Comprehensive CDR Analyzer</h2>
+                        <h2>Comprehensive CDR Analyzer - CCAT</h2>
                         <p style="font-size: 16px">Call Data Record Analyser for forensic investigation</p>
                     </div>
                     <div class="meta">
@@ -92,34 +92,85 @@
                 <footer>
                     <ul class="stats">
                         <li><a href="https://github.com/sharad1126" class="icon fa-github" target="_blank">View project on Github</a></li>
-                        <li><a href="#" class="icon fa-file-text" target="_blank">View report PDF</a></li>
+                        <li><a href="https://docs.google.com/document/d/1y_gK3tJpy-hWjlTMe1Vkg3c80kuauTSXEm0JlT5ijS8/edit?usp=sharing" class="icon fa-file-text" target="_blank">View report</a></li>
                         <li>Team Size: 3</li>
                     </ul>
                 </footer>
                 <a class="image banner"><img src="../images/cdr.jpg" alt="" /></a>
                 <h2 style="font-size: 32px">Abstract</h2>
+                <p style="font-size: 18px"> A call detail record (CDR) is a data record produced by a telephone exchange or other telecommunications equipment that documents the details of a telephone call or other communications transaction (e.g. text message) that passes through that facility or device. The record contains various attributes of the call, such as time, duration, completion status, source number, and destination number. There are two types of CDRs. One is normal CDR and other is the GPRS CDR.</p>
                 <h2 style="font-size: 32px">Existing Technology</h2>
-                <h3 style="font-size: 32px">Design Process</h3>
-                <h2 style="font-size: 24px">Lo-Fi Prototyping</h2>
-                <h2 style="font-size: 24px">Mid-Fi Prototyping</h2>
-                <h2 style="font-size: 24px">Hi-Fi Prototyping</h2>
-                <h2 style="font-size: 32px">Project Architecture</h2>
+                <p style="font-size: 18px">There are many CDR Analyzers available in the market but none of them have all the features. They only analyze the current CDR and use the older databse to give the result in a tabulated way. The Excel sheets produced are difficult to understand. The aspect of Open Source Intelligence is totally neglected in those.</p>
+                <p style="font-size: 18px">We wanted to build some product that could be user friendly and processes the data fast and gives accurate results from all available open source information. We thought of adding the social media aspect as almost everyone is using them nowadays and finding a person is very easy on sites like facebook and then analyzing their accounts gives a lot of information.</p>
                 <h2 style="font-size: 32px">Solution</h2>
-                <h2 style="font-size: 32px">Impact</h2>
+                <p style="font-size: 18px">A Comprehensive Call Data Record Analyzer which not only just analyzes CDRs but also use Open Source Intelligence like facebook and also plots the track of the location on Google earth. Interactive tool on excel which is very easy to use and doesn't require any coding experience to run the tool.</p>
+                <h2 style="font-size: 32px">Features</h2>
+                <ul class="bxslider">
+                    <li class="web-feature">
+                        <img src="images/cdr/1.jpg" />
+                        <div class="web-feature content">
+                            <h3>Excel Sheet Converter</h3>
+                            <p>CDR files from different service providers vary in terms of the data headings and formatting. The tool converts the given CDR into a standard format that it can work on and this conversion is realized with the help of a single Microsoft Excel Document with the help of Visual Basic Macros and Excel VLookUp feature. </p>
+                        </div>
+                    </li>
+                    <li class="web-feature">
+                        <img src="images/cdr/2.jpg" />
+                        <div class="web-feature content">
+                            <h3>Facebook Crawler</h3>
+                            <p>Lists the Posts based on keyword selection ,date and time of creation. Gives all the data available publicly on facebook regarding a person's activities.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="web-feature">
+                        <img src="images/cdr/3.jpg" />
+                        <div class="web-feature content">
+                            <h3>Analysis</h3>
+                            <p>The tool provides an analyzed sheet which is easy to read and understand which contains information like frequently called numbers, unique numbers, frequently sent sms, etc. This helps in knowing information about 2nd and 3rd party involved.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="web-feature">
+                        <img src="images/cdr/4.jpg" />
+                        <div class="web-feature content">
+                            <h3>KML generator</h3>
+                            <p>Tool stores all the locations of the cell phone derived using Cell Ids, LACs, MCCs, MNCs and converts all latitudes and longitudes into a kml file.</p>
+                    </li>
+                    <li class="web-feature">
+                        <img src="images/cdr/5.jpg" />
+                        <div class="web-feature content">
+                            <h3>Tracking using Google Earth</h3>
+                            <p>Google earth plots the coordinates and get a path on it so we can trace the locations of the cell phone for the duration we are having the CDR. It works on a very kml file generated before and shows the output in a easily understandable format.</p>
+                    </li>
+                </ul>
+                <h2 style="font-size: 32px">Future Enhancements</h2>
+                <ul style="font-size: 18px">
+                    <li>
+                        Output in Graphic User Interface(GUI) instead of excel.
+                    </li>
+                    <li>
+                        Analytics along with Graph Generation.
+                    </li>
+                    <li>
+                        Adding more Social Media crawlers like instagram, twitter, linkedin.
+                    </li>
+                    <li>
+                        Tower Dump Analysis to find exact location of the cell phone.
+                    </li>
+                </ul>
             </article>
             <section id="footer">
                 <p class="copyright">&copy; Sharad Agarwal | <a href="http://html5up.net">HTML5 UP</a></p>
             </section>
-        </div>
-    </div>
-    <!-- Scripts -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/skel.min.js"></script>
-    <script src="../assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/jquery.bxslider.min.js"></script>
-    <script src="../assets/js/my.js"></script>
+            </div>
+            </div>
+            <!-- Scripts -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/skel.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="../assets/js/main.js"></script>
+            <script src="../assets/js/jquery.bxslider.min.js"></script>
+            <script src="../assets/js/my.js"></script>
 </body>
 
 </html>
