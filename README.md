@@ -1,2 +1,7 @@
 # sharad1126.github.io
-My official website
+
+Portfolio website
+
+# Author
+
+Sharad Agarwal
